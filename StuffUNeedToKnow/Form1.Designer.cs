@@ -28,35 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnRun = new System.Windows.Forms.Button();
+            this.lbxOutput = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRun
             // 
-            this.button1.Location = new System.Drawing.Point(367, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 132);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRun.Location = new System.Drawing.Point(377, 107);
+            this.btnRun.Name = "btnRun";
+            this.btnRun.Size = new System.Drawing.Size(104, 52);
+            this.btnRun.TabIndex = 0;
+            this.btnRun.Text = "button1";
+            this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
-            // button2
+            // lbxOutput
             // 
-            this.button2.Location = new System.Drawing.Point(582, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 137);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lbxOutput.FormattingEnabled = true;
+            this.lbxOutput.ItemHeight = 20;
+            this.lbxOutput.Location = new System.Drawing.Point(105, 94);
+            this.lbxOutput.Name = "lbxOutput";
+            this.lbxOutput.Size = new System.Drawing.Size(213, 264);
+            this.lbxOutput.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbxOutput);
+            this.Controls.Add(this.btnRun);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -65,8 +66,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnRun;
+        private System.Windows.Forms.ListBox lbxOutput;
     }
 }
 
