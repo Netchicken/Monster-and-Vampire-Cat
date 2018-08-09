@@ -9,7 +9,7 @@ namespace StuffUNeedToKnow
     // we need to create a class 
     class GameCode
     {
-
+      public  int count =0;
 
         public int RNDGenerator()
         {

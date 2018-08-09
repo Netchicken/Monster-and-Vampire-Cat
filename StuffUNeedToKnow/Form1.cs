@@ -21,6 +21,7 @@ namespace StuffUNeedToKnow
 
     public partial class Form1 : Form
     {
+       
         GameCode myGameCode = new GameCode();
         public Form1()
         {
@@ -29,10 +30,70 @@ namespace StuffUNeedToKnow
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-            //We need a Random Number Generator
-            int rnd = myGameCode.RNDGenerator(); //RNDGenerator();
+           
+            //my counter increases by 1 each time I click on the button
+            myGameCode.count += 1;
+            //show the counter for testing
+            this.Text =   myGameCode.count.ToString();
+ //We need a Random Number Generator
+            int rnd = myGameCode.RNDGenerator(); 
+            lbxOutput.Items.Insert(0,rnd);
+            
+            //if the random number = the counter show the cat
+            if (myGameCode.count == rnd)
+            {
+                pbxImage.Image = Resource1.cat;
+                lbxOutput.Items.Insert(0,rnd + " Vampire Cat!");
+                MessageBox.Show("The Vampire Cat!");
+                
+                //reset the counter to 0
+                myGameCode.count = 0;
 
-            lbxOutput.Items.Add(rnd);
+                //don't run any more code from below.
+                return;
+            }
+
+
+            switch (myGameCode.count)
+            {
+                  case 1:
+                      pbxImage.Image = Resource1.Agor;
+                      break;
+                case 2:
+                    pbxImage.Image = Resource1.Igor;
+                    break;
+                case 3:
+                    pbxImage.Image = Resource1.Ogor;
+                    break;
+                case 4:
+                    pbxImage.Image = Resource1.Ugor;
+                    myGameCode.count = 0;
+                    break;
+            }
+
+
+            return;
+            if (myGameCode.count == 1)
+            {
+                pbxImage.Image = Resource1.Agor;
+            }
+            else if (myGameCode.count == 2)
+            {
+                pbxImage.Image = Resource1.Igor;
+                }
+            else if (myGameCode.count == 3)
+            {
+                pbxImage.Image = Resource1.Ogor;
+            }
+            else if (myGameCode.count == 4)
+            {
+                pbxImage.Image = Resource1.Ugor;
+myGameCode.count = 0;
+               }
+          
+
+           
+           
         }
 
         #region OldCode
