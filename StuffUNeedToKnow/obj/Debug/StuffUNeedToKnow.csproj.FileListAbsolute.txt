@@ -1,0 +1,33 @@
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe.config
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.pdb
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csprojAssemblyReference.cache
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Form1.resources
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Properties.Resources.resources
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.GenerateResource.cache
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.CoreCompileInputs.cache
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.exe
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.pdb
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Resource1.resources
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe.config
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.pdb
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.AssemblyReference.cache
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Form1.resources
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Properties.Resources.resources
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Resource1.resources
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.GenerateResource.cache
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.CoreCompileInputs.cache
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.exe
+D:\Dropboxbackup 1-9-18\C# lessons 2018\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.pdb
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe.config
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.exe
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\bin\Debug\StuffUNeedToKnow.pdb
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.AssemblyReference.cache
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Form1.resources
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Properties.Resources.resources
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.Resource1.resources
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.GenerateResource.cache
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.csproj.CoreCompileInputs.cache
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.exe
+C:\Dropbox\C# Projects\StuffUNeedToKnow\StuffUNeedToKnow\obj\Debug\StuffUNeedToKnow.pdb

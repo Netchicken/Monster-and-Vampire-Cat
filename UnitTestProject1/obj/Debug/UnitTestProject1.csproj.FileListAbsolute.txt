@@ -1,0 +1,17 @@
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\StuffUNeedToKnow.exe
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\StuffUNeedToKnow.pdb
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\StuffUNeedToKnow.exe.config
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Dropbox\C# lessons 2018\StuffUNeedToKnow\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
