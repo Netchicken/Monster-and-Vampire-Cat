@@ -10,19 +10,13 @@ using System.Windows.Forms;
 
 namespace StuffUNeedToKnow
 {
-   
-    //todo We need a count down, or count up
-   
-    // we need to make methods in the class (or move your methods to the class)
-    //todo we need to Unit Test our project 2X
-    //todo create / load sound and Image
-    //todo resource folder to store S & N
-    //todo Host on GitHub
+
 
     public partial class Form1 : Form
     {
-       
-        GameCode myGameCode = new GameCode();
+        //Global counter
+        public int count = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -30,81 +24,92 @@ namespace StuffUNeedToKnow
 
         private void btnRun_Click(object sender, EventArgs e)
         {
-           
-            //my counter increases by 1 each time I click on the button
-            myGameCode.count += 1;
+
+            string MonsterName = string.Empty;
+
+            Random rndNumber = new Random();
+            int rnd = rndNumber.Next(1, 5);
+
             //show the counter for testing
-            this.Text =   myGameCode.count.ToString();
- //We need a Random Number Generator
-            int rnd = myGameCode.RNDGenerator(); 
-            lbxOutput.Items.Insert(0,rnd);
-            
+            this.Text = "RANDOM " + rnd.ToString();
+
             //if the random number = the counter show the cat
-            if (myGameCode.count == rnd)
+            if (count == rnd)
             {
                 pbxImage.Image = Resource1.cat;
-                lbxOutput.Items.Insert(0,rnd + " Vampire Cat!");
+                lbxOutput.Items.Insert(0, rnd + " Vampire Cat!");
                 MessageBox.Show("The Vampire Cat!");
-                
+
                 //reset the counter to 0
-                myGameCode.count = 0;
+                count = 0;
 
                 //don't run any more code from below.
                 return;
             }
 
-
-            switch (myGameCode.count)
-            {
-                  case 1:
-                      pbxImage.Image = Resource1.Agor;
-                      break;
-                case 2:
-                    pbxImage.Image = Resource1.Igor;
-                    break;
-                case 3:
-                    pbxImage.Image = Resource1.Ogor;
-                    break;
-                case 4:
-                    pbxImage.Image = Resource1.Ugor;
-                    myGameCode.count = 0;
-                    break;
-            }
-
-
-            return;
-            if (myGameCode.count == 1)
+            if (rnd == 1)
             {
                 pbxImage.Image = Resource1.Agor;
+                MonsterName = "Agor";
+
             }
-            else if (myGameCode.count == 2)
+            else if (rnd == 2)
             {
                 pbxImage.Image = Resource1.Igor;
-                }
-            else if (myGameCode.count == 3)
+                MonsterName = "Igor";
+            }
+            else if (rnd == 3)
             {
                 pbxImage.Image = Resource1.Ogor;
+                MonsterName = "Ogor";
             }
-            else if (myGameCode.count == 4)
+            else if (rnd == 4)
             {
                 pbxImage.Image = Resource1.Ugor;
-myGameCode.count = 0;
-               }
-          
+                MonsterName = "Ugor";
+            }
+            lbxOutput.Items.Insert(0, count + " " + MonsterName);
+            //the counter increases by 1 each time I click on the button
+            count += 1;
 
-           
-           
+            if (count == 4)
+            {
+                count = 0;
+            }
+
+
+            //switch (rnd)
+            //{
+            //    case 1:
+            //        pbxImage.Image = Resource1.Agor;
+            //        MonsterName = "Agor";
+            //        break;
+            //    case 2:
+            //        pbxImage.Image = Resource1.Igor;
+            //        MonsterName = "Igor";
+            //        break;
+            //    case 3:
+            //        pbxImage.Image = Resource1.Ogor;
+            //        MonsterName = "Ogor";
+            //        break;
+            //    case 4:
+            //        pbxImage.Image = Resource1.Ugor;
+            //        MonsterName = "Ugor";
+            //        count = 0;
+            //        break;
+            //}
+
+
+
+
+            //We need a Random Number Generator
+
+
+
+
         }
 
-        #region OldCode
 
-        private int RNDGenerator()
-        {
-           Random rndNumber = new Random();
-            int rnd = rndNumber.Next(1, 7);
-            return rnd;
-        }
-        #endregion
 
     }
 }
