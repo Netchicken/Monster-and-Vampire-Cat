@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8160875-1251-4EBB-807B-D905D50409DF}|StuffUNeedToKnow\\StuffUNeedToKnow.csproj|c:\\dropbox\\c# projects\\stuffuneedtoknow\\stuffuneedtoknow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8160875-1251-4EBB-807B-D905D50409DF}|StuffUNeedToKnow\\StuffUNeedToKnow.csproj|solutionrelative:stuffuneedtoknow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8160875-1251-4EBB-807B-D905D50409DF}|StuffUNeedToKnow\\StuffUNeedToKnow.csproj|c:\\dropbox\\c# projects\\stuffuneedtoknow\\stuffuneedtoknow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D8160875-1251-4EBB-807B-D905D50409DF}|StuffUNeedToKnow\\StuffUNeedToKnow.csproj|solutionrelative:stuffuneedtoknow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,11 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\StuffUNeedToKnow\\Form1.cs",
+              "RelativeDocumentMoniker": "StuffUNeedToKnow\\Form1.cs",
+              "ToolTip": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\StuffUNeedToKnow\\Form1.cs",
+              "RelativeToolTip": "StuffUNeedToKnow\\Form1.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:05:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\StuffUNeedToKnow\\Form1.cs",
               "RelativeDocumentMoniker": "StuffUNeedToKnow\\Form1.cs",
-              "ToolTip": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\StuffUNeedToKnow\\Form1.cs [Design] \u2B24",
-              "RelativeToolTip": "StuffUNeedToKnow\\Form1.cs [Design] \u2B24",
+              "ToolTip": "C:\\Dropbox\\C# Projects\\StuffUNeedToKnow\\StuffUNeedToKnow\\Form1.cs [Design]",
+              "RelativeToolTip": "StuffUNeedToKnow\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T23:56:21.022Z",
               "EditorCaption": " [Design]"

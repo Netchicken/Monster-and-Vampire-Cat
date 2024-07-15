@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,7 @@ namespace StuffUNeedToKnow
 
     public partial class Form1 : Form
     {
-        //Global counter
+        //Global counter that is not reset every click
         public int count = 0;
 
         public Form1()
@@ -27,7 +28,10 @@ namespace StuffUNeedToKnow
 
             string MonsterName = string.Empty;
 
+            // Generated the random number class
             Random rndNumber = new Random();
+
+            //get a random number between 1 and 4
             int rnd = rndNumber.Next(1, 5);
 
             //show the counter for testing
@@ -37,21 +41,21 @@ namespace StuffUNeedToKnow
             if (count == rnd)
             {
                 pbxImage.Image = Resource1.cat;
+                //insert the entry in the listbox at the top, not the bottom
                 lbxOutput.Items.Insert(0, rnd + " Vampire Cat!");
                 MessageBox.Show("The Vampire Cat!");
 
                 //reset the counter to 0
                 count = 0;
-
                 //don't run any more code from below.
                 return;
             }
 
+            //if the random number = 1 then show monster 1
             if (rnd == 1)
             {
                 pbxImage.Image = Resource1.Agor;
                 MonsterName = "Agor";
-
             }
             else if (rnd == 2)
             {
@@ -69,47 +73,15 @@ namespace StuffUNeedToKnow
                 MonsterName = "Ugor";
             }
             lbxOutput.Items.Insert(0, count + " " + MonsterName);
+
             //the counter increases by 1 each time I click on the button
             count += 1;
-
+            //when the counter = n4 reset it to 0
             if (count == 4)
             {
-                count = 0;
+                count = 1;
             }
-
-
-            //switch (rnd)
-            //{
-            //    case 1:
-            //        pbxImage.Image = Resource1.Agor;
-            //        MonsterName = "Agor";
-            //        break;
-            //    case 2:
-            //        pbxImage.Image = Resource1.Igor;
-            //        MonsterName = "Igor";
-            //        break;
-            //    case 3:
-            //        pbxImage.Image = Resource1.Ogor;
-            //        MonsterName = "Ogor";
-            //        break;
-            //    case 4:
-            //        pbxImage.Image = Resource1.Ugor;
-            //        MonsterName = "Ugor";
-            //        count = 0;
-            //        break;
-            //}
-
-
-
-
-            //We need a Random Number Generator
-
-
-
-
         }
-
-
 
     }
 }
